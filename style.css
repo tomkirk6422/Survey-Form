@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body, html {
+    height: 100%;
+}
+
+#logo{
+height: 100%;
+width: 50px;
+}
+
+h1{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+li {
+    display: inline-block;
+}
+#list1{
+  padding-top: 20px;
+}
+
+#description{
+  padding-top: 10px;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(24, 20, 20);
+  font-size: .9em;
+}
+
+#bg {
+
+    background-image: url("mount-rainier.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  #survey-form{
+      width: 250px;
+      margin-left: 30px;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: rgba(72, 72, 148, 0.8);
+      border-radius: 5%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: snow;
+    }
+  #number{
+      width: 160px;
+    }
+  #radio-button{
+      margin-bottom: 5px;
+    }
+  #check-boxes{
+      margin-bottom: 5px;
+    }
+  #radio-block{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(19, 0, 71);
+    border-radius: 5%;
+      }
+  #check-block{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(19, 0, 71);
+    border-radius: 5%;
+    }
+
+  #comments{
+    height: 3em;
+  }
